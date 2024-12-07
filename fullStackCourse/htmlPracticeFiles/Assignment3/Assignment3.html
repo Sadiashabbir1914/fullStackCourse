@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+        <form method="post">
+            <div class="form1">
+         <input type="text" placeholder="Enter First Name" name="FirstName"> 
+            </div>
+            <div class="form1">
+             <input type="text" placeholder="Enter Last Name" name="LastName">
+            </div>
+           <div class="form1">
+             <input type="number" placeholder="Enter your age:" name="Age">
+           </div>
+           <div class="form1">
+            <input type="tel" placeholder="Enter your contact num:" name="contact">
+          </div>
+            
+                <label for="input">Choose Gender:</label> <br> <br>
+                <input type="radio" name="gender" id="Male">
+                <span>Male</span>
+                <input type="radio" name="gender" id="Female">
+                <span>Female</span>
+                <br><br>
+                <label for="input">Choose Nationality:</label> <br> <br>
+                <select name="nations" id="en">
+                    <option value="">Pakistan</option>
+                    <option value="">Sweden</option>
+                    <option value="">Norway</option>
+                    <option value="">Canada</option>
+                    <option value="">Turkey</option>
+                </select>
+                <br><br>
+                <div>
+                    <input type="submit" value="Sign Up">
+                </div>
+               
+         </form>
+    
+</body>
+</html>

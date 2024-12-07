@@ -1,0 +1,25 @@
+*{
+    margin: auto;
+    padding: 10px 10px;
+}
+body{
+    background: url("Welcome.jpg");
+    background-size: cover;
+    text-align: center;
+    background-color: rgb(117, 225, 228);
+    border: 2px solid rgb(93, 71, 71);
+    margin-top: 10px;
+    width: 500px;
+    height: fit-content;
+    border-radius: 25px;
+    border-style: groove;
+    box-shadow: 20px;
+}
+body h1{
+    text-align: center;
+}
+.form1{
+    position: relative ;
+    width: 200px;
+}
+
